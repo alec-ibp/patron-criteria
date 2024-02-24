@@ -32,7 +32,9 @@ def get_asgi_application() -> ASGIApp:
 
 
 def _startup_event() -> None:
-    pass
+    # start mappers
+    from src.shared.primary_adapters.commands import start_sqlalchemy_mappers
+    start_sqlalchemy_mappers()
 
 
 def _set_urls(app: ASGIApp) -> None:
