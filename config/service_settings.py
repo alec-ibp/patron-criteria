@@ -22,6 +22,7 @@ CORS_ALLOWED_HOSTS: list[str] = os.environ.get("CORS_ALLOWED_HOSTS", "").split("
 
 
 # Database
+DB_HOST: str = os.environ.get("DB_HOST")
 DB_NAME: str = os.environ.get("DB_NAME")
 DB_USER: str = os.environ.get("DB_USER")
 DB_PORT: str = os.environ.get("DB_PORT", "5432")
