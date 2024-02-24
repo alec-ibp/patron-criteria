@@ -12,9 +12,14 @@ python-dotenv = "^1.0.1"
 uvicorn = "^0.27.1"
 sqlalchemy = "^2.0.27"
 psycopg2 = "^2.9.9"
+pydantic = {extras = ["email"], version = "^2.6.2"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.1"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
 
 [build-system]
 requires = ["poetry-core"]
