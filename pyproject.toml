@@ -20,6 +20,7 @@ pytest = "^8.0.1"
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.11"
 
 [build-system]
 requires = ["poetry-core"]
