@@ -1,0 +1,12 @@
+site_name: Patron Criteria Docs
+
+nav:
+  - Definition: index.md
+  - About: about.md
+
+theme: 
+  name: material
+  locale: en
+  highlightjs: true
+  hljs_languages:
+    - python
